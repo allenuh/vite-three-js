@@ -1,0 +1,13 @@
+- display all the images onto plane geometries
+- add cannon bodies for the threejs model
+- interactivity with the images
+- add a skybox (cloudy day, galaxy, stars)
+- raycast the camera so it has collision and doesn't phase through the wall
+
+completed:
+- playerhitboxbody can still jump even in locked screen
+- raycaster!@!321321
+- add post processing to make it more psx style
+- add a moving player and have the camera move with the player
+- create an actual gallery scene
+- add a crosshair, or at least have a point ahead of the player to point the camera to. the camera should be looking over the shoulder of the player. the camera is controlled by the mouse.
