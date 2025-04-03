@@ -1,13 +1,73 @@
+################## GOALS #######################
+plan to finish by: end of MAY (8 weeks) and then move on to unity because this is taking too much time.
+
+week 1:
+- make a better terrain in blender
+- make function to create reusable tree assets, add position as argument,
+- make a good enough house model
+
+week 2:
+- make an afternoon and nighttime LUT
+- make a heatmap LUT
+- make 3 random cool colour LUT's (cyan and orange?, pink and dark green?, black and white?)
+
+week 3:
+- make the loading screen like with the NMH shader
+
+week 4:
+- make the move to react fiber and try to make sure everything works, maybe do some refactoring.
+
+week 5:
+- convert all of the gltf/glb files into jsx with the gltftojsx library, and figure out how to do collisions.
+    - maybe even just say fk it and use a navmesh
+
+week 6:
+- flesh out the first area, and find a way to unload the current area, and load another area (white space for now i guess)
+    - give it the NMH shader
+
+week 7-8: just make more areas and call it a project and go to unity cuz collisions are so fkd.
+
+######################################################
+
+################## TODO ########################
+
+todo:
+- LUT
+    - afternoon
+    - nighttime
+    - heatmap
+- add mosaic tiling and lines
+- build actual scene
+    - buildings?
+- build actual gameplay
+    - go around collecting accessories to wear (like the particle effects)
+    - appearence manager
+- shaders/post processing filters
+    - no more heroes loading screen
+    - dithering
+
+(for WAYYYYYY later)
 - display all the images onto plane geometries
-- add cannon bodies for the threejs model
-- interactivity with the images
-- add a skybox (cloudy day, galaxy, stars)
 - raycast the camera so it has collision and doesn't phase through the wall
+- mosaic rotation and tiling
+
+steps to do:
+- create terrain and trees and a house, can add more after
+- mess around with LUT's
+- no more heroes loading screen shader
+- move to react fiber and own workflow because this prebuilt one has too much bloat
+
+######################################################
 
 completed:
+- particle system
+- add a skysphere (cloudy day, galaxy, stars)
+- add cannon bodies for the threejs model
 - playerhitboxbody can still jump even in locked screen
-- raycaster!@!321321
+- raycaster
 - add post processing to make it more psx style
 - add a moving player and have the camera move with the player
 - create an actual gallery scene
 - add a crosshair, or at least have a point ahead of the player to point the camera to. the camera should be looking over the shoulder of the player. the camera is controlled by the mouse.
+
+######################################################

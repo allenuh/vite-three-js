@@ -28,7 +28,8 @@
     "@vitejs/plugin-legacy": "^5.4.2",
     "cannon-es": "^0.20.0",
     "cannon-es-debugger": "^1.0.0",
-    "three": "^0.168.0"
+    "three": "^0.168.0",
+    "three-to-cannon": "^5.0.2"
   },
   "devDependencies": {
     "@builder.io/partytown": "^0.10.2",

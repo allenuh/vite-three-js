@@ -1,0 +1,21 @@
+changelog (4-03):
+features:
+    - created terrain, but adding collisions to every face of the model is too difficult, instead will probably use 
+
+changelog (4-02):
+bugs:
+    - async, await, promises to make sure model is loaded before initializing pointerlock https://discourse.threejs.org/t/ghaaaa-why-does-this-produce-an-error/53586/8
+    - so much shit code was able to be fixed and refactored because of async, await, promises
+
+changelog (3-28):
+features:
+    - created terrain, but adding collisions to every face of the model is too difficult, instead will probably use 
+    - particle system ripped from Robot Bobby taken inspiration from SimonDev.
+    - archimedian spiral with static boxes.
+    - repeating texture tiling onto floor, which has turned into a circle geometry instead of a plane, might change it back.
+bugs:
+    
+    - increasing pixel post processing will also increase the particles, i think that the particles are the same type as pixels?
+        - error was fixed by changing the frustumCulled attribute of the object (_points) to _points.frustumCulled = false;
+    - fix movement while looking down
+        - error was caused by taking the x and z rotation from pitchObject and yawObject respectively, the solution was to use yawObject for both x and z rotations
